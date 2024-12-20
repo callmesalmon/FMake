@@ -2,3 +2,4 @@ fmake
 *.o
 *.out
 *.obj
+tmp*
