@@ -10,7 +10,7 @@ cmd exit
 endif
 
 if -f "/usr/bin/go"
-go fmake.go /usr/bin/fmake
+go fmake.go /usr/local/bin/fmake
 else
 println -e "\e[31;1m[ERROR]: Build failed. Go is not installed."
 endif
