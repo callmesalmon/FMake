@@ -9,10 +9,11 @@ stuff.
 Requirements
 ------------
 
-* <https://go.dev/doc/install>
-* <https://www.gnu.org/software/make>
-* <https://www.linuxfromscratch.org/museum/lfs-museum/2.3.7/LFS-BOOK-2.3.7-HTML/x2018.html>
-* <https://git-scm.com/downloads>
+* <https://go.dev/doc/install> (go programming language)
+* <https://www.gnu.org/software/make> (to build initially)
+* <https://www.linuxfromscratch.org/museum/lfs-museum/2.3.7/LFS-BOOK-2.3.7-HTML/x2018.html> (m4 macro processor)
+* <https://git-scm.com/downloads> (git for cloning repo locally)
+* <https://github.com/callmesalmon/rtfm> (for generating manuals)
 
 Install
 -------
@@ -29,7 +30,7 @@ gh repo clone ElisStaaf/FMake ~/fmake
 Then, you would build an executable using ``make`` or ``fmake``:
 ```sh
 # Make
-sudo make install
+sudo make
 
 # FMake
 sudo fmake

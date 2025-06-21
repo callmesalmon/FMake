@@ -1,0 +1,6 @@
+roff-build:
+    use: roff
+    build: fmake.1 /usr/local/man/man1
+man-install:
+    use: man
+    build: fmake.1 /usr/local/man/man1
