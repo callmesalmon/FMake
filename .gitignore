@@ -3,3 +3,4 @@ fmake
 *.out
 *.obj
 tmp*
+rtfm.tool
