@@ -19,11 +19,11 @@ Install
 
 To install, firstly, clone the git repo:
 ```sh
-   # git
-   git clone https://github.com/callmesalmon/FMake ~/fmake
+# git
+git clone https://github.com/callmesalmon/FMake ~/fmake
 
-   # gh
-   gh repo clone ElisStaaf/FMake ~/fmake
+# gh
+gh repo clone ElisStaaf/FMake ~/fmake
 ```
 
 Then, you would build an executable using ``make`` or ``fmake``:
